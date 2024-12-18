@@ -1,12 +1,14 @@
 <?= $this->extend('layout/user/user') ?>
 
 <?= $this->section('content') ?>
-
 <div class="container py-5">
-    <div class="text-center">
-        <h1 class="display-4">Selamat Datang di Bengkel Kami</h1>
-        <p class="lead">Solusi terpercaya untuk semua kebutuhan perbaikan kendaraan Anda!</p>
-        <a href="/service-request" class="btn btn-primary btn-lg mt-3">Ajukan Permintaan Servis</a>
+    <div style="background-image: url('<?= base_url() ?>/assets/images/backgrounds/bengkel.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+
+        <div class="text-center p-5">
+            <h1 class="display-4 text-light">Selamat Datang di Bengkel Kami</h1>
+            <p class="lead text-light">Solusi terpercaya untuk semua kebutuhan perbaikan kendaraan Anda!</p>
+            <a href="/service-request" class="btn btn-primary btn-lg mt-3">Ajukan Permintaan Servis</a>
+        </div>
     </div>
 
     <hr class="my-5">

@@ -26,7 +26,7 @@
                 <div class="collapse navbar-collapse justify-content-end d-flex align-items-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link <?= (strpos(uri_string(), 'home') !== false) ? 'active' : '' ?>" href="<?= site_url('home') ?>">
+                            <a class="nav-link <?= (strpos(uri_string(), 'home') !== false) ? 'active' : '' ?>" href="<?= site_url('/') ?>">
                                 <i class="ti ti-home"></i> Home
                             </a>
                         </li>
