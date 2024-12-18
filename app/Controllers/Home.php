@@ -17,4 +17,16 @@ class Home extends BaseController
         ];
         return view('home', $data);
     }
+
+    public function landingPage()
+    {
+        // return view('welcome_message');
+        helper(['date', 'form']);
+        $model = new QueueModel();
+        $data = [
+            'title' => 'Landing Page',
+            'getData' => $model->getAllData(),
+        ];
+        return view('landing_page', $data);
+    }
 }

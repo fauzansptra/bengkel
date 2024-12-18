@@ -5,7 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Home::landingPage');
 
 $routes->group('auth', function ($routes) {
     $routes->get('login', 'Auth::index');
@@ -39,6 +39,6 @@ $routes->group('laporan', function ($routes) {
     $routes->get('generatePdf', 'Report::generatePdf');
 });
 
-$routes->get('forbidden', function() {
+$routes->get('forbidden', function () {
     return view('forbidden');
 });

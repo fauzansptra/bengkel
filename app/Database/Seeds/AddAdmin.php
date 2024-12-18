@@ -9,9 +9,9 @@ class AddAdmin extends Seeder
     public function run()
     {
         $data = [
-            'username' => 'admin',
+            'username' => 'fauzan',
             'password' => sha1('admin'), // Hash the password
-            'name' => 'Admin',
+            'name' => 'Fauzan Saputra',
             'role' => 'admin'
         ];
 
