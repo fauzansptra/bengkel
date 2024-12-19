@@ -6,6 +6,8 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::landingPage');
+$routes->get('/service-request', 'Queue::index');
+
 
 $routes->group('auth', function ($routes) {
     $routes->get('login', 'Auth::index');

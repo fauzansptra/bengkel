@@ -30,7 +30,7 @@ class Queue extends BaseController
             'title' => 'Data Antrian',
             'getData' => $model->getAllData(),
         ];
-        return view('antrian/index', $data);
+        return view('service_page', $data);
     }
 
     public function create()

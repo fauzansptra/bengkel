@@ -31,7 +31,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link <?= (strpos(uri_string(), 'service') !== false) ? 'active' : '' ?>" href="<?= site_url('service') ?>">
+                            <a class="nav-link <?= (strpos(uri_string(), 'service') !== false) ? 'active' : '' ?>" href="<?= site_url('service-request') ?>">
                                 <i class="ti ti-settings"></i> Service Requests
                             </a>
                         </li>
